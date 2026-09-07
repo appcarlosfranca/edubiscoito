@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#080b12">
   <meta name="color-scheme" content="dark light">
-  <title>Edu Biscoito • Vendas, Compras e Receitas</title>
-  <!-- EDU BISCOITO V3.2 • ARQUIVO PRINCIPAL AUTOSSUFICIENTE • CSS/JS EMBUTIDOS • MOBILE-FIRST -->
-  <meta name="edu-biscoito-build" content="3.2.0">
-  <link rel="manifest" href="./manifest.json?v=3.2.0">
-  <link rel="shortcut icon" href="./favicon.ico?v=3.2.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png?v=3.2.0">
-  <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96.png?v=3.2.0">
-  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png?v=3.2.0">
-  <link rel="icon" type="image/png" sizes="512x512" href="./icon-512.png?v=3.2.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="./icon-180.png?v=3.2.0">
+  <title>Edu Biscoito</title>
+  <!-- EDU BISCOITO V3.4 • LOCAL-FIRST • OFFLINE REAL • SYNC POSTERIOR • NEON RESPONSIVO -->
+  <meta name="edu-biscoito-build" content="3.4.0">
+  <link rel="manifest" href="./manifest.json?v=3.4.0">
+  <link rel="shortcut icon" href="./favicon.ico?v=3.4.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png?v=3.4.0">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon-96.png?v=3.4.0">
+  <link rel="icon" type="image/png" sizes="192x192" href="./eb-icon-192-v34.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./eb-icon-512-v34.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./eb-apple-touch-v34.png">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="application-name" content="Edu Biscoito">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -22,12 +22,12 @@
   <meta name="apple-mobile-web-app-title" content="Edu Biscoito">
   <style id="edu-biscoito-core-css">
 :root{--bg:#07090e;--panel:#0e121b;--panel2:#121824;--card:#151c28;--card2:#192230;--input:#0a0e16;--line:#252e3d;--text:#f7f9fc;--muted:#8d9aad;--accent:#63f5c6;--accent2:#5dd6ff;--violet:#8b7cff;--ok:#6fffb3;--warn:#ffd36a;--danger:#ff647c;--shadow:0 24px 70px rgba(0,0,0,.28)}
-*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;min-height:100%;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 15% -10%,rgba(93,214,255,.10),transparent 34%),radial-gradient(circle at 90% 0%,rgba(139,124,255,.10),transparent 30%),var(--bg);color:var(--text);letter-spacing:-.01em}body.light{--bg:#f4f7fb;--panel:#fff;--panel2:#f7f9fc;--card:#f3f6fa;--card2:#eaf0f7;--input:#fff;--line:#dde4ed;--text:#101623;--muted:#667489;--shadow:0 18px 55px rgba(21,33,51,.10)}button,input,select{font:inherit}.hidden{display:none!important}.ambient{position:fixed;border-radius:50%;filter:blur(90px);pointer-events:none;opacity:.28;z-index:-1}.ambient-a{width:240px;height:240px;background:var(--accent2);top:20px;left:-120px}.ambient-b{width:300px;height:300px;background:var(--violet);right:-180px;top:180px}.app-header{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:18px clamp(16px,4vw,46px);position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 78%,transparent);backdrop-filter:blur(18px);border-bottom:1px solid color-mix(in srgb,var(--line) 70%,transparent)}.brand-lockup{display:flex;align-items:center;gap:12px;min-width:0}.brand-mark{width:43px;height:43px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#04120d;font-weight:950;box-shadow:0 0 0 1px rgba(255,255,255,.08) inset}.eyebrow{font-size:10px;font-weight:900;letter-spacing:.18em;color:var(--accent);white-space:nowrap}.app-header h1{margin:2px 0 0;font-size:clamp(19px,3vw,27px);line-height:1}.app-header h1 b{color:var(--accent);font-weight:900}.app-header h1 span{color:var(--muted);font-size:.58em;font-weight:650;margin-left:8px}.header-actions,.actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.connection-pill{min-height:40px;padding:7px 10px;border:1px solid var(--line);border-radius:13px;background:color-mix(in srgb,var(--panel) 88%,transparent);display:grid;grid-template-columns:auto auto;column-gap:7px;align-items:center}.connection-pill small{grid-column:2;color:var(--muted);font-size:10px}.status-dot{width:8px;height:8px;border-radius:50%;background:var(--danger);grid-row:1/3}.connection-pill.online .status-dot{background:var(--ok);box-shadow:0 0 12px color-mix(in srgb,var(--ok) 70%,transparent)}.connection-pill.syncing .status-dot{background:var(--warn);animation:pulse 1s infinite}.icon-action{width:42px;height:42px;border-radius:13px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:20px;cursor:pointer}.hero{margin:14px clamp(16px,4vw,46px) 0;padding:clamp(18px,4vw,30px);border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,color-mix(in srgb,var(--panel) 92%,transparent),color-mix(in srgb,var(--panel2) 87%,transparent));display:grid;grid-template-columns:minmax(220px,.8fr) 1.4fr;gap:20px;overflow:hidden;position:relative;box-shadow:var(--shadow)}.hero:after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;right:-140px;top:-180px;background:radial-gradient(circle,var(--accent2),transparent 65%);opacity:.14;pointer-events:none}.live-badge,.card-label{font-size:10px;letter-spacing:.16em;font-weight:900;color:var(--accent)}.hero-copy h2{font-size:clamp(34px,6vw,58px);margin:8px 0 4px;letter-spacing:-.045em}.hero-copy p{margin:0;color:var(--muted)}.hero-copy p strong{color:var(--text)}.hero-payments{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;align-content:center}.hero-payments article{padding:14px;border:1px solid var(--line);border-radius:16px;background:color-mix(in srgb,var(--card) 86%,transparent);min-width:0}.hero-payments small{display:block;color:var(--muted);font-size:11px}.hero-payments strong{display:block;font-size:clamp(16px,2.3vw,23px);margin-top:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:12px clamp(16px,4vw,46px)}.kpi{background:color-mix(in srgb,var(--panel) 94%,transparent);border:1px solid var(--line);border-radius:17px;padding:14px;min-width:0}.kpi.accent{background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 12%,var(--panel)),var(--panel))}.kpi small,.kpi span{display:block;color:var(--muted)}.kpi strong{display:block;font-size:clamp(18px,3vw,27px);margin:5px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.kpi span{font-size:11px}.tabs{display:flex;gap:7px;overflow-x:auto;padding:2px clamp(16px,4vw,46px) 14px;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}.tab{min-height:44px;padding:0 15px;border-radius:14px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;font-weight:750}.tab span{margin-right:4px}.tab.active{background:var(--text);color:var(--bg);border-color:var(--text)}main{padding:0 clamp(16px,4vw,46px) 44px}.panel{background:color-mix(in srgb,var(--panel) 96%,transparent);border:1px solid var(--line);border-radius:22px;padding:clamp(15px,3vw,26px);box-shadow:0 18px 60px rgba(0,0,0,.10)}.hidden-panel{display:none}.active-panel{display:block}.panel-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:20px}.panel-heading>div:first-child{display:grid;grid-template-columns:auto 1fr;column-gap:11px}.panel-heading .step{grid-row:1/4;min-width:36px;height:30px;border-radius:10px;display:grid;place-items:center;background:var(--card);border:1px solid var(--line);font-size:10px;font-weight:900;color:var(--accent);letter-spacing:.08em}.panel-heading h2{margin:0;font-size:21px}.panel-heading p{grid-column:2;margin:4px 0 0;color:var(--muted);font-size:13px}.btn{min-height:44px;border-radius:13px;border:1px solid var(--line);padding:0 15px;cursor:pointer;font-weight:800;background:transparent;color:var(--text)}.btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#05120e;border-color:transparent}.btn.secondary{background:var(--card)}.btn.success{background:linear-gradient(135deg,var(--ok),var(--accent));color:#04130d;border-color:transparent}.btn.danger{background:var(--danger);color:#24050b;border-color:var(--danger)}.btn.ghost{color:var(--muted)}.btn.wide{width:100%}.btn:disabled{opacity:.42;cursor:not-allowed}.scan-shell{display:flex;align-items:stretch;gap:8px;background:var(--input);border:1px solid var(--line);border-radius:18px;padding:8px}.scan-field{display:flex;flex-direction:column;gap:3px;padding:4px 9px;min-width:0}.scan-field.grow{flex:1}.scan-field span{font-size:9px;font-weight:900;color:var(--accent);letter-spacing:.12em}.scan-field input{border:0;background:transparent;color:var(--text);font-size:18px;outline:none;min-height:34px;width:100%;min-width:0}.scan-action{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:13px;min-width:105px;cursor:pointer;font-weight:800}.scan-action span{margin-right:5px}.scan-action.primary{background:var(--text);color:var(--bg);border-color:var(--text)}.toolbar,.product-search,.checkout{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.product-search{margin-top:10px;position:relative}.field{display:flex;flex-direction:column;gap:6px;min-width:140px}.field.grow{flex:1;min-width:220px}.field span{font-size:11px;color:var(--muted);font-weight:800}.field input,.field select,select,input[type=file]{min-height:44px;border:1px solid var(--line);border-radius:12px;background:var(--input);color:var(--text);padding:0 12px;outline:none;min-width:0}.field input:focus,.field select:focus{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 15%,transparent)}.search-results{position:absolute;left:0;right:0;top:68px;z-index:8;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:none;max-height:260px;overflow-y:auto;box-shadow:var(--shadow)}.search-results.show{display:block}.search-item{width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--text);padding:12px 14px;cursor:pointer}.search-item small{display:block;color:var(--muted);margin-top:3px}.table-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:15px;margin-top:16px}table{width:100%;border-collapse:collapse;min-width:700px}th,td{padding:12px;text-align:left;border-bottom:1px solid var(--line);font-size:13px;vertical-align:middle}th{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.07em;background:var(--card)}tbody tr:last-child td{border-bottom:0}.empty{text-align:center;color:var(--muted);padding:28px}.qty-control{display:flex;align-items:center;gap:6px}.qty-control button,.table-action{min-width:34px;min-height:34px;border:1px solid var(--line);border-radius:9px;background:var(--card);color:var(--text);cursor:pointer}.stock-low{color:var(--warn);font-weight:850}.stock-zero{color:var(--danger);font-weight:850}.checkout{margin-top:16px;justify-content:flex-end}.discount-field{max-width:130px}.payment-mode>span{display:block;font-size:11px;color:var(--muted);font-weight:800;margin-bottom:6px}.segmented{display:flex;gap:4px;padding:4px;background:var(--input);border:1px solid var(--line);border-radius:13px;overflow-x:auto}.segment{min-height:36px;padding:0 11px;border:0;border-radius:9px;background:transparent;color:var(--muted);font-weight:800;cursor:pointer;white-space:nowrap}.segment.active{background:var(--card2);color:var(--text);box-shadow:0 1px 0 rgba(255,255,255,.04) inset}.split-payment{flex:1 0 100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:11px;border:1px solid var(--line);border-radius:15px;background:var(--input)}.split-payment label{display:flex;flex-direction:column;gap:4px}.split-payment label span,.split-balance small{font-size:10px;color:var(--muted);font-weight:800}.split-payment input{min-height:40px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);padding:0 10px}.split-balance{display:flex;flex-direction:column;justify-content:center;padding:0 8px}.split-balance strong{margin-top:3px}.split-balance.ok strong{color:var(--ok)}.split-balance.bad strong{color:var(--warn)}.total-box{min-width:220px;background:var(--card);border:1px solid var(--line);border-radius:15px;padding:10px 14px}.total-box small,.total-box span{display:block;color:var(--muted)}.total-box small{font-size:9px;font-weight:900;letter-spacing:.12em}.total-box strong{display:block;font-size:27px;margin:3px 0}.total-box span{font-size:11px}.checkout-button{min-width:180px}.checkout-button span{font-size:18px;margin-left:7px}.message{min-height:22px;color:var(--muted);margin:10px 0 0}.message.ok{color:var(--ok)}.message.error{color:var(--danger)}.cash-grid,.backup-grid,.sync-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.card{background:linear-gradient(150deg,var(--card),color-mix(in srgb,var(--card2) 65%,var(--card)));border:1px solid var(--line);border-radius:17px;padding:17px}.card h3{margin:4px 0 14px}.card .field{margin-bottom:10px}.hint{color:var(--muted);font-size:12px;line-height:1.45}.highlight-card{background:linear-gradient(145deg,color-mix(in srgb,var(--accent2) 8%,var(--card)),var(--card))}.summary-list{margin:0}.summary-list div{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}.summary-list div:last-child{border-bottom:0}.summary-list dt{color:var(--muted)}.summary-list dd{margin:0;font-weight:850}.summary-list .total{font-size:17px}.danger-card{border-color:color-mix(in srgb,var(--danger) 42%,var(--line))}.report-period{font-weight:850;margin:18px 0 10px}.report-kpis{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:8px}.report-kpis article{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:11px;min-width:0}.report-kpis small{display:block;color:var(--muted);font-size:10px}.report-kpis strong{display:block;margin-top:5px;font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.sync-status-card{text-align:center}.sync-orb{width:74px;height:74px;border-radius:50%;margin:8px auto 14px;border:1px solid var(--line);display:grid;place-items:center;background:radial-gradient(circle,var(--card2),var(--card))}.sync-orb span{width:20px;height:20px;border-radius:50%;background:var(--muted)}.sync-orb.online span{background:var(--ok);box-shadow:0 0 22px color-mix(in srgb,var(--ok) 70%,transparent)}.sync-orb.syncing span{background:var(--warn);animation:pulse 1s infinite}.mini-stats{margin:14px 0 0;text-align:left}.mini-stats div{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-top:1px solid var(--line)}.mini-stats dt{color:var(--muted)}.mini-stats dd{margin:0;font-weight:800;text-align:right}.switch-row{display:flex;gap:11px;align-items:flex-start;margin-top:12px;padding:12px;border:1px solid var(--line);border-radius:13px;background:var(--input)}.switch-row input{width:19px;height:19px;accent-color:var(--accent)}.switch-row span{display:flex;flex-direction:column;gap:3px}.switch-row small{color:var(--muted)}.dialog-actions.left{justify-content:flex-start}.info-strip{margin-top:12px;border:1px dashed var(--line);border-radius:14px;padding:13px;color:var(--muted);background:color-mix(in srgb,var(--card) 60%,transparent)}.info-strip strong{color:var(--text)}.dialog-card{width:min(640px,calc(100vw - 28px));background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:20px;padding:19px;box-shadow:var(--shadow)}dialog{border:0;padding:0;background:transparent}dialog::backdrop{background:rgba(2,4,10,.82);backdrop-filter:blur(7px)}.dialog-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:16px}.dialog-head small{color:var(--accent);font-weight:900;letter-spacing:.12em}.dialog-head h2{margin:2px 0 0}.icon-btn{width:42px;height:42px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:24px;cursor:pointer}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.span-2{grid-column:span 2}.dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}.inline-input{display:flex;gap:8px}.inline-input input{flex:1}.camera-card video{width:100%;border-radius:14px;background:#000;max-height:55vh}.toast{position:fixed;right:18px;bottom:18px;z-index:60;background:var(--text);color:var(--bg);padding:12px 15px;border-radius:13px;font-weight:800;opacity:0;transform:translateY(12px);pointer-events:none;transition:.2s;box-shadow:var(--shadow)}.toast.show{opacity:1;transform:none}@keyframes pulse{50%{opacity:.35;transform:scale(.8)}}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;min-height:100%;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 15% -10%,rgba(93,214,255,.10),transparent 34%),radial-gradient(circle at 90% 0%,rgba(139,124,255,.10),transparent 30%),var(--bg);color:var(--text);letter-spacing:-.01em}body.light{--bg:#f4f7fb;--panel:#fff;--panel2:#f7f9fc;--card:#f3f6fa;--card2:#eaf0f7;--input:#fff;--line:#dde4ed;--text:#101623;--muted:#667489;--shadow:0 18px 55px rgba(21,33,51,.10)}button,input,select{font:inherit}.hidden{display:none!important}.ambient{position:fixed;border-radius:50%;filter:blur(90px);pointer-events:none;opacity:.28;z-index:-1}.ambient-a{width:240px;height:240px;background:var(--accent2);top:20px;left:-120px}.ambient-b{width:300px;height:300px;background:var(--violet);right:-180px;top:180px}.app-header{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:18px clamp(16px,4vw,46px);position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 78%,transparent);backdrop-filter:blur(18px);border-bottom:1px solid color-mix(in srgb,var(--line) 70%,transparent)}.brand-lockup{display:flex;align-items:center;gap:12px;min-width:0}.brand-mark{width:43px;height:43px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#04120d;font-weight:950;box-shadow:0 0 0 1px rgba(255,255,255,.08) inset}.eyebrow{font-size:10px;font-weight:900;letter-spacing:.18em;color:var(--accent);white-space:nowrap}.app-header h1{margin:2px 0 0;font-size:clamp(19px,3vw,27px);line-height:1}.app-header h1 b{color:var(--accent);font-weight:900}.app-header h1 span{color:var(--muted);font-size:.58em;font-weight:650;margin-left:8px}.header-actions,.actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.connection-pill{min-height:40px;padding:7px 10px;border:1px solid var(--line);border-radius:13px;background:color-mix(in srgb,var(--panel) 88%,transparent);display:grid;grid-template-columns:auto auto;column-gap:7px;align-items:center}.connection-pill small{grid-column:2;color:var(--muted);font-size:10px}.status-dot{width:8px;height:8px;border-radius:50%;background:var(--danger);grid-row:1/3}.connection-pill.online .status-dot{background:var(--ok);box-shadow:0 0 12px color-mix(in srgb,var(--ok) 70%,transparent)}.connection-pill.syncing .status-dot{background:var(--warn);animation:pulse 1s infinite}.icon-action{width:42px;height:42px;border-radius:13px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:20px;cursor:pointer}.hero{margin:14px clamp(16px,4vw,46px) 0;padding:clamp(18px,4vw,30px);border:1px solid var(--line);border-radius:24px;background:linear-gradient(135deg,color-mix(in srgb,var(--panel) 92%,transparent),color-mix(in srgb,var(--panel2) 87%,transparent));display:grid;grid-template-columns:minmax(220px,.8fr) 1.4fr;gap:20px;overflow:hidden;position:relative;box-shadow:var(--shadow)}.hero:after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;right:-140px;top:-180px;background:radial-gradient(circle,var(--accent2),transparent 65%);opacity:.14;pointer-events:none}.live-badge,.card-label{font-size:10px;letter-spacing:.16em;font-weight:900;color:var(--accent)}.hero-copy h2{font-size:clamp(34px,6vw,58px);margin:8px 0 4px;letter-spacing:-.045em}.hero-copy p{margin:0;color:var(--muted)}.hero-copy p strong{color:var(--text)}.hero-payments{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;align-content:center}.hero-payments article{padding:14px;border:1px solid var(--line);border-radius:16px;background:color-mix(in srgb,var(--card) 86%,transparent);min-width:0}.hero-payments small{display:block;color:var(--muted);font-size:11px}.hero-payments strong{display:block;font-size:clamp(16px,2.3vw,23px);margin-top:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;padding:12px clamp(16px,4vw,46px)}.kpi{background:color-mix(in srgb,var(--panel) 94%,transparent);border:1px solid var(--line);border-radius:17px;padding:14px;min-width:0}.kpi.accent{background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 12%,var(--panel)),var(--panel))}.kpi small,.kpi span{display:block;color:var(--muted)}.kpi strong{display:block;font-size:clamp(18px,3vw,27px);margin:5px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.kpi span{font-size:11px}.tabs{display:flex;gap:7px;overflow-x:auto;padding:2px clamp(16px,4vw,46px) 14px;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}.tab{min-height:44px;padding:0 15px;border-radius:14px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;white-space:nowrap;font-weight:750}.tab span{margin-right:4px}.tab.active{background:var(--text);color:var(--bg);border-color:var(--text)}main{padding:0 clamp(16px,4vw,46px) 44px}.panel{background:color-mix(in srgb,var(--panel) 96%,transparent);border:1px solid var(--line);border-radius:22px;padding:clamp(15px,3vw,26px);box-shadow:0 18px 60px rgba(0,0,0,.10)}.hidden-panel{display:none}.active-panel{display:block}.panel-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:20px}.panel-heading>div:first-child{display:grid;grid-template-columns:auto 1fr;column-gap:11px}.panel-heading .step{grid-row:1/4;min-width:36px;height:30px;border-radius:10px;display:grid;place-items:center;background:var(--card);border:1px solid var(--line);font-size:10px;font-weight:900;color:var(--accent);letter-spacing:.08em}.panel-heading h2{margin:0;font-size:21px}.panel-heading p{grid-column:2;margin:4px 0 0;color:var(--muted);font-size:13px}.btn{min-height:44px;border-radius:13px;border:1px solid var(--line);padding:0 15px;cursor:pointer;font-weight:800;background:transparent;color:var(--text)}.btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#05120e;border-color:transparent}.btn.secondary{background:var(--card)}.btn.success{background:linear-gradient(135deg,var(--ok),var(--accent));color:#04130d;border-color:transparent}.btn.danger{background:var(--danger);color:#24050b;border-color:var(--danger)}.btn.ghost{color:var(--muted)}.btn.wide{width:100%}.btn:disabled{opacity:.42;cursor:not-allowed}.scan-shell{display:flex;align-items:stretch;gap:8px;background:var(--input);border:1px solid var(--line);border-radius:18px;padding:8px}.scan-field{display:flex;flex-direction:column;gap:3px;padding:4px 9px;min-width:0}.scan-field.grow{flex:1}.scan-field span{font-size:9px;font-weight:900;color:var(--accent);letter-spacing:.12em}.scan-field input{border:0;background:transparent;color:var(--text);font-size:18px;outline:none;min-height:34px;width:100%;min-width:0}.scan-action{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:13px;min-width:105px;cursor:pointer;font-weight:800}.scan-action span{margin-right:5px}.scan-action.primary{background:var(--text);color:var(--bg);border-color:var(--text)}.toolbar,.product-search,.checkout{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.product-search{margin-top:10px;position:relative}.field{display:flex;flex-direction:column;gap:6px;min-width:140px}.field.grow{flex:1;min-width:220px}.field span{font-size:11px;color:var(--muted);font-weight:800}.field input,.field select,select,input[type=file]{min-height:44px;border:1px solid var(--line);border-radius:12px;background:var(--input);color:var(--text);padding:0 12px;outline:none;min-width:0}.field input:focus,.field select:focus{border-color:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 15%,transparent)}.search-results{position:absolute;left:0;right:0;top:68px;z-index:8;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:none;max-height:260px;overflow-y:auto;box-shadow:var(--shadow)}.search-results.show{display:block}.search-item{width:100%;text-align:left;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--text);padding:12px 14px;cursor:pointer}.search-item small{display:block;color:var(--muted);margin-top:3px}.table-scroll{overflow-x:auto;border:1px solid var(--line);border-radius:15px;margin-top:16px}table{width:100%;border-collapse:collapse;min-width:700px}th,td{padding:12px;text-align:left;border-bottom:1px solid var(--line);font-size:13px;vertical-align:middle}th{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.07em;background:var(--card)}tbody tr:last-child td{border-bottom:0}.empty{text-align:center;color:var(--muted);padding:28px}.qty-control{display:flex;align-items:center;gap:6px}.qty-control button,.table-action{min-width:34px;min-height:34px;border:1px solid var(--line);border-radius:9px;background:var(--card);color:var(--text);cursor:pointer}.stock-low{color:var(--warn);font-weight:850}.stock-zero{color:var(--danger);font-weight:850}.checkout{margin-top:16px;justify-content:flex-end}.discount-field{max-width:130px}.payment-mode>span{display:block;font-size:11px;color:var(--muted);font-weight:800;margin-bottom:6px}.segmented{display:flex;gap:4px;padding:4px;background:var(--input);border:1px solid var(--line);border-radius:13px;overflow-x:auto}.segment{min-height:36px;padding:0 11px;border:0;border-radius:9px;background:transparent;color:var(--muted);font-weight:800;cursor:pointer;white-space:nowrap}.segment.active{background:var(--card2);color:var(--text);box-shadow:0 1px 0 rgba(255,255,255,.04) inset}.split-payment{flex:1 0 100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;padding:11px;border:1px solid var(--line);border-radius:15px;background:var(--input)}.split-payment label{display:flex;flex-direction:column;gap:4px}.split-payment label span,.split-balance small{font-size:10px;color:var(--muted);font-weight:800}.split-payment input{min-height:40px;border:1px solid var(--line);border-radius:10px;background:var(--panel);color:var(--text);padding:0 10px}.split-balance{display:flex;flex-direction:column;justify-content:center;padding:0 8px}.split-balance strong{margin-top:3px}.split-balance.ok strong{color:var(--ok)}.split-balance.bad strong{color:var(--warn)}.total-box{min-width:220px;background:var(--card);border:1px solid var(--line);border-radius:15px;padding:10px 14px}.total-box small,.total-box span{display:block;color:var(--muted)}.total-box small{font-size:9px;font-weight:900;letter-spacing:.12em}.total-box strong{display:block;font-size:27px;margin:3px 0}.total-box span{font-size:11px}.checkout-button{min-width:180px}.checkout-button span{font-size:18px;margin-left:7px}.message{min-height:22px;color:var(--muted);margin:10px 0 0}.message.ok{color:var(--ok)}.message.error{color:var(--danger)}.cash-grid,.backup-grid,.sync-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.card{background:linear-gradient(150deg,var(--card),color-mix(in srgb,var(--card2) 65%,var(--card)));border:1px solid var(--line);border-radius:17px;padding:17px}.card h3{margin:4px 0 14px}.card .field{margin-bottom:10px}.hint{color:var(--muted);font-size:12px;line-height:1.45}.highlight-card{background:linear-gradient(145deg,color-mix(in srgb,var(--accent2) 8%,var(--card)),var(--card))}.summary-list{margin:0}.summary-list div{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-bottom:1px solid var(--line)}.summary-list div:last-child{border-bottom:0}.summary-list dt{color:var(--muted)}.summary-list dd{margin:0;font-weight:850}.summary-list .total{font-size:17px}.danger-card{border-color:color-mix(in srgb,var(--danger) 42%,var(--line))}.report-period{font-weight:850;margin:18px 0 10px}.report-kpis{display:grid;grid-template-columns:repeat(9,minmax(0,1fr));gap:8px}.report-kpis article{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:11px;min-width:0}.report-kpis small{display:block;color:var(--muted);font-size:10px}.report-kpis strong{display:block;margin-top:5px;font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.sync-status-card{text-align:center}.sync-orb{width:74px;height:74px;border-radius:50%;margin:8px auto 14px;border:1px solid var(--line);display:grid;place-items:center;background:radial-gradient(circle,var(--card2),var(--card))}.sync-orb span{width:20px;height:20px;border-radius:50%;background:var(--muted)}.sync-orb.online span{background:var(--ok);box-shadow:0 0 22px color-mix(in srgb,var(--ok) 70%,transparent)}.sync-orb.syncing span{background:var(--warn);animation:pulse 1s infinite}.mini-stats{margin:14px 0 0;text-align:left}.mini-stats div{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-top:1px solid var(--line)}.mini-stats dt{color:var(--muted)}.mini-stats dd{margin:0;font-weight:800;text-align:right}.switch-row{display:flex;gap:11px;align-items:flex-start;margin-top:12px;padding:12px;border:1px solid var(--line);border-radius:13px;background:var(--input)}.switch-row input{width:19px;height:19px;accent-color:var(--accent)}.switch-row span{display:flex;flex-direction:column;gap:3px}.switch-row small{color:var(--muted)}.dialog-actions.left{justify-content:flex-start}.daily-reset-note{margin:-4px 0 14px}.info-strip{margin-top:12px;border:1px dashed var(--line);border-radius:14px;padding:13px;color:var(--muted);background:color-mix(in srgb,var(--card) 60%,transparent)}.info-strip strong{color:var(--text)}.dialog-card{width:min(640px,calc(100vw - 28px));background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:20px;padding:19px;box-shadow:var(--shadow)}dialog{border:0;padding:0;background:transparent}dialog::backdrop{background:rgba(2,4,10,.82);backdrop-filter:blur(7px)}.dialog-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:16px}.dialog-head small{color:var(--accent);font-weight:900;letter-spacing:.12em}.dialog-head h2{margin:2px 0 0}.icon-btn{width:42px;height:42px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:24px;cursor:pointer}.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.span-2{grid-column:span 2}.dialog-actions{display:flex;justify-content:flex-end;gap:8px;margin-top:18px}.inline-input{display:flex;gap:8px}.inline-input input{flex:1}.camera-card video{width:100%;border-radius:14px;background:#000;max-height:55vh}.toast{position:fixed;right:18px;bottom:18px;z-index:60;background:var(--text);color:var(--bg);padding:12px 15px;border-radius:13px;font-weight:800;opacity:0;transform:translateY(12px);pointer-events:none;transition:.2s;box-shadow:var(--shadow)}.toast.show{opacity:1;transform:none}@keyframes pulse{50%{opacity:.35;transform:scale(.8)}}
 @media(max-width:1050px){.hero{grid-template-columns:1fr}.report-kpis{grid-template-columns:repeat(3,minmax(0,1fr))}.hero-payments{grid-template-columns:repeat(4,minmax(0,1fr))}}
-@media(max-width:760px){.app-header{position:static}.connection-pill small{display:none}.connection-pill{display:flex}.hero-payments{grid-template-columns:repeat(2,minmax(0,1fr))}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.panel-heading{flex-direction:column}.panel-heading .actions{width:100%}.panel-heading .actions .btn{flex:1}.scan-shell{flex-wrap:wrap}.scan-field{flex:1 0 100%}.scan-action{flex:1}.checkout{align-items:stretch}.payment-mode{flex:1 0 100%}.segmented{width:100%}.segment{flex:1}.checkout .total-box{order:6;flex:1 0 100%}.checkout .checkout-button{order:7;flex:1 0 100%}.split-payment{grid-template-columns:repeat(2,minmax(0,1fr))}.cash-grid,.backup-grid,.sync-grid{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.span-2{grid-column:span 1}.inline-input{flex-wrap:wrap}.inline-input .btn{width:100%}.toolbar .field{flex:1;min-width:140px}.app-header h1 span{display:block;margin:4px 0 0}.report-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.header-actions .btn{display:none}.brand-mark{width:39px;height:39px}}
+@media(max-width:760px){.app-header{position:static}.connection-pill small{display:none}.connection-pill{display:flex}.hero-payments{grid-template-columns:repeat(2,minmax(0,1fr))}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.panel-heading{flex-direction:column}.panel-heading .actions{width:100%}.panel-heading .actions .btn{flex:1}.scan-shell{flex-wrap:wrap}.scan-field{flex:1 0 100%}.scan-action{flex:1}.checkout{align-items:stretch}.payment-mode{flex:1 0 100%}.segmented{width:100%}.segment{flex:1}.checkout .total-box{order:6;flex:1 0 100%}.checkout .checkout-button{order:7;flex:1 0 100%}.split-payment{grid-template-columns:repeat(2,minmax(0,1fr))}.cash-grid,.backup-grid,.sync-grid{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.span-2{grid-column:span 1}.inline-input{flex-wrap:wrap}.inline-input .btn{width:100%}.toolbar .field{flex:1;min-width:140px}.app-header h1 span{display:block;margin:4px 0 0}.report-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}#installBtn:not(.hidden){display:inline-flex!important;align-items:center;padding:0 10px;min-height:40px}.brand-mark{width:39px;height:39px}}
 @media(max-width:430px){.hero{border-radius:19px}.hero-copy h2{font-size:38px}.kpis{gap:7px}.kpi{padding:11px}.hero-payments article{padding:11px}.hero-payments strong{font-size:16px}.tab{padding:0 12px}.connection-pill{padding:6px 8px}.connection-pill b{font-size:12px}.icon-action{width:40px;height:40px}.split-payment{grid-template-columns:1fr 1fr}.discount-field{max-width:none;flex:1 0 100%}}
 
-/* V3.2 • depósito, exclusão e calculadora */
+/* V3.4 • depósito, bip, PWA, banco local e fluxo diário */
 .stock-actions-note{margin-top:10px;color:var(--muted);font-size:12px}
 .calculator-shell{width:min(430px,100%);margin:0 auto;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:14px}
 .calculator-screen{min-height:98px;background:var(--input);border:1px solid var(--line);border-radius:16px;padding:14px;display:flex;flex-direction:column;align-items:flex-end;justify-content:center;overflow:hidden}
@@ -192,6 +192,47 @@ body{font-family:Inter,Arial,Helvetica,sans-serif!important}
   .panel-heading .actions .btn{width:100%!important;min-width:0!important;white-space:normal!important;overflow-wrap:anywhere!important}
 }
 
+
+/* ===== V3.4 FUTURISTIC NEON • PRIMEIRA E SEGUNDA CAMADA ===== */
+:root{
+  --bg:#03050a;--panel:rgba(7,12,22,.92);--panel2:rgba(10,17,31,.94);--card:rgba(12,22,38,.82);--card2:rgba(16,28,47,.9);--input:rgba(2,8,16,.9);
+  --line:rgba(68,231,255,.24);--text:#ecfbff;--muted:#7e98ad;--accent:#00f5d4;--accent2:#27d7ff;--violet:#8f63ff;--ok:#37ffb0;--warn:#ffd166;--danger:#ff5470;
+  --neon-cyan:#21e6ff;--neon-violet:#9c6cff;--neon-green:#00f5b8;--shadow:0 22px 65px rgba(0,0,0,.38);
+}
+body{background:
+  linear-gradient(rgba(24,217,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(24,217,255,.035) 1px,transparent 1px),
+  radial-gradient(circle at 10% 0%,rgba(33,230,255,.10),transparent 28%),radial-gradient(circle at 92% 8%,rgba(156,108,255,.11),transparent 30%),#03050a;
+  background-size:28px 28px,28px 28px,auto,auto,auto;
+}
+body.light{--bg:#edf8fc;--panel:rgba(250,254,255,.94);--panel2:rgba(240,250,255,.96);--card:rgba(232,247,252,.92);--card2:rgba(223,242,250,.96);--input:rgba(255,255,255,.96);--line:rgba(0,142,171,.24);--text:#061923;--muted:#527080;--accent:#00a98f;--accent2:#008fc2;--violet:#7657d6;--ok:#00a875;--warn:#b78200;--danger:#d43e59;}
+body.light{background:linear-gradient(rgba(0,143,194,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(0,143,194,.045) 1px,transparent 1px),radial-gradient(circle at 10% 0%,rgba(0,169,143,.10),transparent 28%),radial-gradient(circle at 92% 8%,rgba(118,87,214,.09),transparent 30%),#edf8fc;background-size:28px 28px,28px 28px,auto,auto,auto;}
+.app-header{background:rgba(3,7,14,.86);border-bottom:1px solid rgba(33,230,255,.38);box-shadow:0 10px 35px rgba(0,0,0,.24),0 1px 18px rgba(33,230,255,.08);}
+.brand-mark{background:linear-gradient(145deg,#00f5d4,#21e6ff 55%,#9c6cff);box-shadow:0 0 18px rgba(33,230,255,.36),inset 0 0 0 1px rgba(255,255,255,.26);}
+.eyebrow{color:var(--neon-cyan);text-shadow:0 0 12px rgba(33,230,255,.35)}
+.app-header h1 b{color:var(--neon-green);text-shadow:0 0 18px rgba(0,245,184,.24)}
+.hero,.panel{position:relative;isolation:isolate;background:linear-gradient(145deg,rgba(7,13,24,.94),rgba(5,10,19,.9));border:1px solid rgba(33,230,255,.38);box-shadow:0 20px 55px rgba(0,0,0,.32),inset 0 0 0 1px rgba(156,108,255,.08),0 0 24px rgba(33,230,255,.045);}
+.hero:before,.panel:before{content:"";position:absolute;inset:8px;border:1px solid rgba(156,108,255,.16);border-radius:inherit;pointer-events:none;z-index:-1;}
+.hero:after,.panel:after{content:"";position:absolute;left:28px;right:28px;top:-1px;height:1px;background:linear-gradient(90deg,transparent,var(--neon-cyan),var(--neon-violet),transparent);box-shadow:0 0 12px rgba(33,230,255,.5);pointer-events:none;}
+.kpi,.card,.hero-payments article,.total-box,.calculator-shell{background:linear-gradient(145deg,rgba(11,21,36,.88),rgba(7,14,25,.9));border:1px solid rgba(33,230,255,.20);box-shadow:inset 0 0 0 1px rgba(156,108,255,.06);}
+.kpi.accent{border-color:rgba(0,245,184,.42);box-shadow:inset 0 0 0 1px rgba(0,245,184,.08),0 0 18px rgba(0,245,184,.045)}
+.tab{border-color:rgba(33,230,255,.20);background:rgba(5,11,20,.74)}
+.tab.active{background:linear-gradient(135deg,rgba(0,245,212,.94),rgba(33,230,255,.92));color:#021014;border-color:rgba(0,245,212,.95);box-shadow:0 0 18px rgba(33,230,255,.18)}
+.btn,.icon-action,.scan-action,.calc-key{border-color:rgba(33,230,255,.25)}
+.btn.primary,.scan-action.primary,.btn.success,.calc-key.equals{background:linear-gradient(135deg,#00efc7,#21dfff 55%,#8f63ff);color:#021014;box-shadow:0 0 20px rgba(33,230,255,.15)}
+.field input,.field select,.scan-shell,.segmented,.split-payment,.calculator-screen{border-color:rgba(33,230,255,.20)}
+.field input:focus,.field select:focus{border-color:var(--neon-cyan);box-shadow:0 0 0 2px rgba(33,230,255,.10),0 0 18px rgba(33,230,255,.08)}
+.connection-pill{border-color:rgba(33,230,255,.27);background:rgba(4,11,20,.88)}
+.info-strip{border-color:rgba(156,108,255,.30);background:rgba(13,17,32,.74)}
+.table-scroll{border-color:rgba(33,230,255,.18)}
+th{background:rgba(9,18,31,.96);color:#8fb8c9}tbody tr:hover{background:rgba(33,230,255,.025)}
+@media(max-width:640px){
+  body{background-size:22px 22px,22px 22px,auto,auto,auto}
+  .hero:before,.panel:before{inset:5px}
+  .app-header{backdrop-filter:blur(14px)}
+  .hero,.panel{border-color:rgba(33,230,255,.31)}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
 </style>
 </head>
 <body>
@@ -202,8 +243,8 @@ body{font-family:Inter,Arial,Helvetica,sans-serif!important}
     <div class="brand-lockup">
       <div class="brand-mark">EB</div>
       <div>
-        <div class="eyebrow">DEPÓSITO • ESTOQUE • VENDAS • CAIXA</div>
-        <h1>EDU <b>BISCOITO</b><span>Entrada • Saída • Lucro</span></h1>
+        <div class="eyebrow">LOCAL-FIRST • DEPÓSITO • VENDAS • CAIXA</div>
+        <h1>EDU <b>BISCOITO</b><span>Offline local • Sync quando voltar</span></h1>
       </div>
     </div>
     <div class="header-actions">
@@ -305,7 +346,7 @@ body{font-family:Inter,Arial,Helvetica,sans-serif!important}
         <div class="actions no-print"><button id="newProductBtn" class="btn primary" type="button">+ Produto</button><button id="newStockMoveBtn" class="btn secondary" type="button">↕ Movimentar</button><button id="newPurchaseBtn" class="btn secondary" type="button">+ Compra / entrada</button><button id="clearStockBtn" class="btn danger" type="button">Apagar estoque</button></div>
       </div>
       <div class="toolbar no-print">
-        <label class="field grow"><span>Pesquisar</span><input id="stockSearch" placeholder="Nome, categoria ou código"></label>
+        <label class="field grow"><span>Pesquisar</span><input id="stockSearch" placeholder="Nome ou código"></label>
         <label class="field"><span>Filtro</span><select id="stockFilter"><option value="all">Todos</option><option value="low">Estoque baixo</option><option value="zero">Sem estoque</option></select></label>
       </div>
       <div class="table-scroll">
@@ -316,6 +357,7 @@ body{font-family:Inter,Arial,Helvetica,sans-serif!important}
 
     <section id="cashPanel" class="panel hidden-panel">
       <div class="panel-heading"><div><span class="step">03</span><h2>Caixa do dia</h2><p>Dinheiro físico separado de Pix e cartão, com suprimento, despesas e sangria.</p></div></div>
+      <article class="info-strip daily-reset-note"><strong>Resumo diário:</strong> à meia-noite, os indicadores de “hoje” começam um novo dia em R$ 0,00. Nada é apagado: vendas e movimentações anteriores permanecem nos Relatórios e no histórico.</article>
       <div class="cash-grid">
         <article class="card no-print">
           <div class="card-label">ABERTURA</div><h3>Quanto começou no caixa?</h3>
@@ -389,20 +431,22 @@ body{font-family:Inter,Arial,Helvetica,sans-serif!important}
           <p id="syncStatusText" class="hint">Toda movimentação é registrada localmente primeiro.</p>
           <dl class="mini-stats">
             <div><dt>Conexão</dt><dd id="syncConnection">Offline</dd></div>
+            <div><dt>Banco local</dt><dd id="localDbStatus">Inicializando</dd></div>
+            <div><dt>Offline</dt><dd id="offlineCacheStatus">Preparando</dd></div>
             <div><dt>Pendentes</dt><dd id="syncPending">0</dd></div>
             <div><dt>Último envio</dt><dd id="syncLast">Nunca</dd></div>
           </dl>
         </article>
         <article class="card no-print">
-          <div class="card-label">NUVEM</div><h3>Destino de sincronização</h3>
-          <label class="field"><span>Endpoint HTTPS</span><input id="syncEndpoint" type="url" placeholder="https://seu-servidor.com/api/sync"></label>
+          <div class="card-label">CAMADA 2 • NUVEM</div><h3>Banco remoto opcional</h3>
+          <label class="field"><span>Endpoint/API do banco</span><input id="syncEndpoint" type="url" placeholder="https://seu-servidor.com/api/sync"></label>
           <label class="field"><span>Token / chave (opcional)</span><input id="syncToken" type="password" autocomplete="off" placeholder="Bearer token"></label>
           <label class="switch-row"><input id="syncEnabled" type="checkbox" checked><span><b>Sincronização automática</b><small>Enviar quando a conexão voltar e ao abrir o app.</small></span></label>
-          <div class="dialog-actions left"><button id="saveSyncSettingsBtn" class="btn secondary" type="button">Salvar configuração</button><button id="testSyncBtn" class="btn ghost" type="button">Testar conexão</button></div>
-          <p class="hint">Sem um endpoint configurado, o app continua funcionando normalmente e mantém tudo na fila local.</p>
+          <div class="dialog-actions left"><button id="saveSyncSettingsBtn" class="btn secondary" type="button">Salvar configuração</button><button id="testSyncBtn" class="btn ghost" type="button">Testar conexão</button><button id="prepareOfflineBtn" class="btn ghost" type="button">Preparar offline</button></div>
+          <p class="hint">Camada 1: IndexedDB neste aparelho. Camada 2: envio posterior ao banco remoto quando houver internet. Sem endpoint, nada é bloqueado.</p>
         </article>
       </div>
-      <article class="info-strip"><strong>Fluxo:</strong> venda/compra/caixa → salva no aparelho → entra na fila → conexão volta → envio automático → confirmação do servidor → sai da fila.</article>
+      <article class="info-strip"><strong>Fluxo local-first:</strong> ação → grava no banco local imediatamente → gera evento pendente → continua funcionando sem rede → internet volta → envia ao banco remoto configurado → confirmação → remove apenas o evento da fila, mantendo o histórico local.</article>
     </section>
 
     <section id="backupPanel" class="panel hidden-panel">
@@ -439,7 +483,6 @@ body{font-family:Inter,Arial,Helvetica,sans-serif!important}
       <div class="form-grid">
         <label class="field span-2"><span>Código de barras (opcional)</span><div class="inline-input"><input id="productBarcode" autocomplete="off" placeholder="Ex.: 7891234567890"><button id="scanProductBarcodeBtn" class="btn secondary" type="button">Câmera</button></div></label>
         <label class="field span-2"><span>Nome do produto (opcional)</span><input id="productName" placeholder="Ex.: Água mineral 500 mL"></label>
-        <label class="field"><span>Categoria (opcional)</span><input id="productCategory" placeholder="Bebidas"></label>
         <label class="field"><span>Estoque atual (opcional)</span><input id="productStock" type="number" min="0" step="1" placeholder="0"></label>
         <label class="field"><span>Preço de compra / custo (opcional)</span><input id="productCost" type="number" min="0" step="0.01" placeholder="0,00"></label>
         <label class="field"><span>Preço de venda (opcional)</span><input id="productPrice" type="number" min="0" step="0.01" placeholder="0,00"></label>
@@ -495,8 +538,11 @@ const LEGACY_STORAGE_KEY='edu_biscoito_pdv_v1';
 const THEME_KEY='edu_biscoito_pdv_theme';
 const DEVICE_KEY='edu_biscoito_pdv_device_id';
 const DB_NAME='edu-biscoito-sync-db';
-const DB_VERSION=1;
-const SYNC_FALLBACK_KEY='edu_biscoito_sync_fallback_v3';
+const DB_VERSION=2;
+const SYNC_FALLBACK_KEY='edu_biscoito_sync_fallback_v4';
+const LOCAL_DB_STATE_KEY='state';
+const OFFLINE_READY_KEY='edu_biscoito_offline_ready_v34';
+const STATE_TS_KEY='edu_biscoito_state_ts_v34';
 const memoryStore={};
 const safeStorage={
   get(key){try{return localStorage.getItem(key)}catch(e){return Object.prototype.hasOwnProperty.call(memoryStore,key)?memoryStore[key]:null}},
@@ -535,6 +581,8 @@ let state={products:[],transactions:[],cashSessions:{}};
 let cart=[];
 let paymentMode='none';
 let deferredInstall=null;
+let productAudioCtx=null;
+let midnightRefreshTimer=null;
 let cameraStream=null;
 let cameraRAF=null;
 let cameraTarget='sale';
@@ -543,6 +591,9 @@ let syncConfig={enabled:true,endpoint:'',token:'',deviceId:''};
 let syncing=false;
 let lastSyncAt=null;
 let calcExpression='';
+let localDbReady=false;
+let offlineRuntimeReady=false;
+let swRegistration=null;
 
 function getDeviceId(){
   let id=safeStorage.get(DEVICE_KEY);
@@ -550,22 +601,67 @@ function getDeviceId(){
   return id;
 }
 
-function load(){
+function normalizeLoadedState(parsed){
+  return {
+    products:Array.isArray(parsed?.products)?parsed.products:[],
+    transactions:Array.isArray(parsed?.transactions)?parsed.transactions:[],
+    cashSessions:parsed?.cashSessions&&typeof parsed.cashSessions==='object'?parsed.cashSessions:{}
+  };
+}
+async function load(){
+  let idbRecord=null;let localRecord=null;
+  try{idbRecord=await idbGet('app_state',LOCAL_DB_STATE_KEY).catch(()=>null);if(idbRecord)localDbReady=true;}catch(error){console.warn('IndexedDB local indisponível',error)}
   try{
     const raw=safeStorage.get(STORAGE_KEY)||safeStorage.get(LEGACY_STORAGE_KEY);
-    if(raw){
-      const parsed=JSON.parse(raw);
-      state={
-        products:Array.isArray(parsed.products)?parsed.products:[],
-        transactions:Array.isArray(parsed.transactions)?parsed.transactions:[],
-        cashSessions:parsed.cashSessions&&typeof parsed.cashSessions==='object'?parsed.cashSessions:{}
-      };
-      saveState();
-    }
-  }catch(error){console.warn('Falha ao carregar dados locais',error)}
+    if(raw)localRecord={value:JSON.parse(raw),savedAt:safeStorage.get(STATE_TS_KEY)||''};
+  }catch(error){console.warn('Falha ao carregar fallback local',error)}
+  const idbTs=idbRecord?.savedAt?Date.parse(idbRecord.savedAt)||0:0;
+  const localTs=localRecord?.savedAt?Date.parse(localRecord.savedAt)||0:0;
+  const selected=(localRecord&&(!idbRecord||localTs>idbTs))?localRecord:idbRecord;
+  if(selected?.value)state=normalizeLoadedState(selected.value);
+  const migrationTs=new Date().toISOString();
+  safeStorage.set(STORAGE_KEY,JSON.stringify(state));
+  safeStorage.set(STATE_TS_KEY,selected?.savedAt||migrationTs);
+  if(!idbRecord||selected===localRecord)await persistStateDb(snapshotState(),selected?.savedAt||migrationTs).catch(()=>{});
   if(safeStorage.get(THEME_KEY)==='light') document.body.classList.add('light');
 }
-function saveState(){safeStorage.set(STORAGE_KEY,JSON.stringify(state));}
+function snapshotState(){return JSON.parse(JSON.stringify(state));}
+async function persistStateDb(snapshot=snapshotState(),savedAt=new Date().toISOString()){
+  await idbPut('app_state',{key:LOCAL_DB_STATE_KEY,value:snapshot,savedAt});
+  localDbReady=true;
+  updateLocalPersistenceStatus();
+}
+function saveState(){
+  const snapshot=snapshotState();const savedAt=new Date().toISOString();
+  safeStorage.set(STORAGE_KEY,JSON.stringify(snapshot));safeStorage.set(STATE_TS_KEY,savedAt);
+  persistStateDb(snapshot,savedAt).catch(error=>{console.warn('Falha ao persistir no IndexedDB; fallback localStorage mantido',error);localDbReady=false;updateLocalPersistenceStatus();});
+}
+function unlockProductAudio(){
+  try{
+    const AudioCtx=window.AudioContext||window.webkitAudioContext;
+    if(!AudioCtx)return;
+    if(!productAudioCtx)productAudioCtx=new AudioCtx();
+    if(productAudioCtx.state==='suspended')productAudioCtx.resume().catch(()=>{});
+  }catch{}
+}
+function playProductBeep(){
+  try{
+    unlockProductAudio();
+    if(!productAudioCtx)return;
+    const now=productAudioCtx.currentTime;
+    const osc=productAudioCtx.createOscillator();
+    const gain=productAudioCtx.createGain();
+    osc.type='sine';
+    osc.frequency.setValueAtTime(920,now);
+    osc.frequency.exponentialRampToValueAtTime(1380,now+0.055);
+    gain.gain.setValueAtTime(0.0001,now);
+    gain.gain.exponentialRampToValueAtTime(0.12,now+0.006);
+    gain.gain.exponentialRampToValueAtTime(0.0001,now+0.095);
+    osc.connect(gain);gain.connect(productAudioCtx.destination);
+    osc.start(now);osc.stop(now+0.1);
+    if(navigator.vibrate)navigator.vibrate(22);
+  }catch{}
+}
 function toast(message){
   const el=$('toast');el.textContent=message;el.classList.add('show');
   clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.classList.remove('show'),2300);
@@ -605,6 +701,11 @@ function paymentTotals(rows){
   return rows.filter(tx=>tx.type==='sale').reduce((acc,tx)=>{const p=txPayments(tx);acc.cash+=p.cash;acc.pix+=p.pix;acc.card+=p.card;return acc;},{cash:0,pix:0,card:0});
 }
 function refreshAll(){renderKpis();renderStock();renderCart();renderCash();renderReport();fillPurchaseProducts();fillStockMoveProducts();renderCalculator();renderSyncStatus();}
+function scheduleMidnightRefresh(){
+  if(midnightRefreshTimer)clearTimeout(midnightRefreshTimer);
+  const now=new Date();const next=new Date(now.getFullYear(),now.getMonth(),now.getDate()+1,0,0,1,0);
+  midnightRefreshTimer=setTimeout(()=>{refreshAll();scheduleMidnightRefresh();},Math.max(1000,next-now));
+}
 
 function renderKpis(){
   const tx=todayTx();const sales=tx.filter(item=>item.type==='sale');
@@ -646,7 +747,6 @@ function openProductDialog(product=null){
   $('productDialogTitle').textContent=product?'Editar produto':'Novo produto';
   $('productBarcode').value=product?.barcode||'';
   $('productName').value=product?.name||'';
-  $('productCategory').value=product?.category||'';
   $('productStock').value=product?.stock??'';
   $('productCost').value=product?.cost??'';
   $('productPrice').value=product?.price??'';
@@ -658,7 +758,6 @@ async function saveProduct(event){
   const id=$('productId').value;
   const barcode=$('productBarcode').value.trim();
   const rawName=$('productName').value.trim();
-  const category=$('productCategory').value.trim();
   const numeric=(id,def=0)=>{const raw=$(id).value.trim();if(raw==='')return def;const n=Number(raw);return Number.isFinite(n)&&n>=0?n:def;};
   const stock=Math.floor(numeric('productStock',0));
   const cost=numeric('productCost',0);
@@ -668,8 +767,8 @@ async function saveProduct(event){
   let product=state.products.find(p=>p.id===id);
   const existed=Boolean(product);
   const name=rawName||(barcode?`Produto ${barcode}`:'Produto sem nome');
-  if(product) Object.assign(product,{barcode,name,category,stock,cost,price,minStock,updatedAt:new Date().toISOString()});
-  else {product={id:uid(),barcode,name,category,stock,cost,price,minStock,createdAt:new Date().toISOString()};state.products.push(product);}
+  if(product){Object.assign(product,{barcode,name,stock,cost,price,minStock,updatedAt:new Date().toISOString()});delete product.category;}
+  else {product={id:uid(),barcode,name,stock,cost,price,minStock,createdAt:new Date().toISOString()};state.products.push(product);}
   saveState();
   queueSyncEvent('product.upsert',product);
   closeModalElement($('productDialog'));refreshAll();toast(existed?'Produto atualizado.':'Produto cadastrado.');
@@ -682,7 +781,7 @@ function deleteProduct(id){
 function renderStock(){
   const q=$('stockSearch').value.trim().toLowerCase();const filter=$('stockFilter').value;
   const list=state.products.filter(p=>{
-    const hay=`${p.name} ${p.category} ${p.barcode}`.toLowerCase();
+    const hay=`${p.name} ${p.barcode}`.toLowerCase();
     if(q&&!hay.includes(q))return false;
     if(filter==='low'&&Number(p.stock)>Number(p.minStock))return false;
     if(filter==='zero'&&Number(p.stock)!==0)return false;
@@ -690,7 +789,7 @@ function renderStock(){
   }).sort((a,b)=>a.name.localeCompare(b.name,'pt-BR'));
   $('stockBody').innerHTML=list.length?list.map(p=>{
     const margin=Number(p.price)-Number(p.cost);const cls=Number(p.stock)===0?'stock-zero':Number(p.stock)<=Number(p.minStock)?'stock-low':'';
-    return `<tr><td><strong>${esc(p.name)}</strong><br><small>${esc(p.category||'Sem categoria')}</small></td><td>${esc(p.barcode)}</td><td class="${cls}">${Number(p.stock)||0}</td><td>${money(p.cost)}</td><td>${money(p.price)}</td><td>${money(margin)}</td><td class="no-print"><button class="table-action" data-edit="${p.id}" title="Editar">Editar</button> <button class="table-action" data-move="${p.id}" title="Movimentar estoque">↕ Movimento</button> <button class="table-action" data-buy="${p.id}" title="Compra / entrada">+ Compra</button> <button class="table-action stock-delete-button" data-del="${p.id}" title="Excluir produto">Excluir</button></td></tr>`;
+    return `<tr><td><strong>${esc(p.name)}</strong></td><td>${esc(p.barcode)}</td><td class="${cls}">${Number(p.stock)||0}</td><td>${money(p.cost)}</td><td>${money(p.price)}</td><td>${money(margin)}</td><td class="no-print"><button class="table-action" data-edit="${p.id}" title="Editar">Editar</button> <button class="table-action" data-move="${p.id}" title="Movimentar estoque">↕ Movimento</button> <button class="table-action" data-buy="${p.id}" title="Compra / entrada">+ Compra</button> <button class="table-action stock-delete-button" data-del="${p.id}" title="Excluir produto">Excluir</button></td></tr>`;
   }).join(''):'<tr><td colspan="7" class="empty">Nenhum produto cadastrado.</td></tr>';
   $('stockBody').querySelectorAll('[data-edit]').forEach(button=>button.addEventListener('click',()=>openProductDialog(state.products.find(p=>p.id===button.dataset.edit))));
   $('stockBody').querySelectorAll('[data-move]').forEach(button=>button.addEventListener('click',()=>openStockMoveDialog(button.dataset.move)));
@@ -763,7 +862,7 @@ function addProductToCart(product){
   const item=cart.find(x=>x.productId===product.id);
   if(item){if(item.qty>=Number(product.stock)){toast('Quantidade máxima do estoque atingida.');return;}item.qty+=1;}
   else cart.push({productId:product.id,barcode:product.barcode,name:product.name,qty:1,unitCost:Number(product.cost)||0,unitPrice:Number(product.price)||0});
-  renderCart();$('saleMessage').textContent='';$('saleMessage').className='message';
+  renderCart();playProductBeep();$('saleMessage').textContent='';$('saleMessage').className='message';
 }
 function cartTotals(){
   const subtotal=cart.reduce((sum,item)=>sum+item.qty*item.unitPrice,0);const cost=cart.reduce((sum,item)=>sum+item.qty*item.unitCost,0);
@@ -784,7 +883,7 @@ function changeQty(index,delta){
 function searchProducts(){
   const q=$('saleSearch').value.trim().toLowerCase();const box=$('searchResults');
   if(!q){box.classList.remove('show');box.innerHTML='';return;}
-  const list=state.products.filter(p=>Number(p.stock)>0&&`${p.name} ${p.category} ${p.barcode}`.toLowerCase().includes(q)).slice(0,8);
+  const list=state.products.filter(p=>Number(p.stock)>0&&`${p.name} ${p.barcode}`.toLowerCase().includes(q)).slice(0,8);
   box.innerHTML=list.length?list.map(p=>`<button class="search-item" data-id="${p.id}" type="button"><strong>${esc(p.name)}</strong><small>${money(p.price)} • estoque ${Number(p.stock)||0} • ${esc(p.barcode)}</small></button>`).join(''):'<button class="search-item" type="button" disabled>Nenhum produto encontrado</button>';
   box.classList.add('show');box.querySelectorAll('[data-id]').forEach(button=>button.addEventListener('click',()=>{const p=state.products.find(x=>x.id===button.dataset.id);if(p)addProductToCart(p);$('saleSearch').value='';box.classList.remove('show');}));
 }
@@ -906,26 +1005,42 @@ function openDb(){
   if(dbPromise)return dbPromise;
   dbPromise=new Promise((resolve,reject)=>{
     const request=indexedDB.open(DB_NAME,DB_VERSION);
-    request.onupgradeneeded=()=>{const db=request.result;if(!db.objectStoreNames.contains('queue'))db.createObjectStore('queue',{keyPath:'id'});if(!db.objectStoreNames.contains('config'))db.createObjectStore('config',{keyPath:'key'});};
+    request.onupgradeneeded=()=>{const db=request.result;if(!db.objectStoreNames.contains('queue'))db.createObjectStore('queue',{keyPath:'id'});if(!db.objectStoreNames.contains('config'))db.createObjectStore('config',{keyPath:'key'});if(!db.objectStoreNames.contains('app_state'))db.createObjectStore('app_state',{keyPath:'key'});};
     request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(request.error);
   });return dbPromise;
 }
 async function idbPut(storeName,value){const db=await openDb();return new Promise((resolve,reject)=>{const tx=db.transaction(storeName,'readwrite');tx.objectStore(storeName).put(value);tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);});}
 async function idbGet(storeName,key){const db=await openDb();return new Promise((resolve,reject)=>{const req=db.transaction(storeName,'readonly').objectStore(storeName).get(key);req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);});}
-async function getQueueItems(){const db=await openDb();return new Promise((resolve,reject)=>{const req=db.transaction('queue','readonly').objectStore('queue').getAll();req.onsuccess=()=>resolve((req.result||[]).sort((a,b)=>String(a.createdAt).localeCompare(String(b.createdAt))));req.onerror=()=>reject(req.error);});}
-async function deleteQueueItems(ids){if(!ids.length)return;const db=await openDb();return new Promise((resolve,reject)=>{const tx=db.transaction('queue','readwrite');const store=tx.objectStore('queue');ids.forEach(id=>store.delete(id));tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);});}
-async function clearQueue(){const db=await openDb();return new Promise((resolve,reject)=>{const tx=db.transaction('queue','readwrite');tx.objectStore('queue').clear();tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);});}
+function fallbackQueue(){try{const raw=safeStorage.get(SYNC_FALLBACK_KEY);const q=raw?JSON.parse(raw):[];return Array.isArray(q)?q:[]}catch{return []}}
+function saveFallbackQueue(items){safeStorage.set(SYNC_FALLBACK_KEY,JSON.stringify(items||[]));}
+async function getQueueItems(){
+  let primary=[];
+  try{const db=await openDb();primary=await new Promise((resolve,reject)=>{const req=db.transaction('queue','readonly').objectStore('queue').getAll();req.onsuccess=()=>resolve(req.result||[]);req.onerror=()=>reject(req.error);});}catch{}
+  const map=new Map();[...primary,...fallbackQueue()].forEach(item=>{if(item?.id)map.set(item.id,item)});
+  return [...map.values()].sort((a,b)=>String(a.createdAt).localeCompare(String(b.createdAt)));
+}
+async function deleteQueueItems(ids){
+  if(!ids.length)return;
+  try{const db=await openDb();await new Promise((resolve,reject)=>{const tx=db.transaction('queue','readwrite');const store=tx.objectStore('queue');ids.forEach(id=>store.delete(id));tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);});}catch{}
+  const set=new Set(ids);saveFallbackQueue(fallbackQueue().filter(item=>!set.has(item.id)));
+}
+async function clearQueue(){
+  try{const db=await openDb();await new Promise((resolve,reject)=>{const tx=db.transaction('queue','readwrite');tx.objectStore('queue').clear();tx.oncomplete=()=>resolve();tx.onerror=()=>reject(tx.error);});}catch{}
+  saveFallbackQueue([]);
+}
 async function loadSyncConfig(){
   const stored=await idbGet('config','sync').catch(()=>null);syncConfig={enabled:stored?.value?.enabled!==false,endpoint:stored?.value?.endpoint||'',token:stored?.value?.token||'',deviceId:stored?.value?.deviceId||getDeviceId()};
   $('syncEndpoint').value=syncConfig.endpoint;$('syncToken').value=syncConfig.token;$('syncEnabled').checked=syncConfig.enabled;await persistSyncConfig();renderSyncStatus();
 }
 async function persistSyncConfig(){syncConfig.deviceId=syncConfig.deviceId||getDeviceId();await idbPut('config',{key:'sync',value:syncConfig});}
 async function queueSyncEvent(eventType,payload){
-  try{
-    const item={id:uid(),eventType,createdAt:new Date().toISOString(),deviceId:getDeviceId(),payload:JSON.parse(JSON.stringify(payload))};await idbPut('queue',item);renderSyncStatus();
-    if('serviceWorker'in navigator){const reg=await navigator.serviceWorker.ready.catch(()=>null);if(reg?.sync)reg.sync.register('edu-biscoito-sync').catch(()=>{});}
-    if(navigator.onLine&&syncConfig.enabled&&syncConfig.endpoint) flushSyncQueue();
-  }catch(error){console.warn('Falha ao adicionar à fila de sincronização',error);}
+  const item={id:uid(),eventType,createdAt:new Date().toISOString(),deviceId:getDeviceId(),payload:JSON.parse(JSON.stringify(payload))};
+  let stored=false;
+  try{await idbPut('queue',item);stored=true;}catch(error){console.warn('Fila IndexedDB indisponível, usando fallback',error)}
+  if(!stored){const q=fallbackQueue();q.push(item);saveFallbackQueue(q);}
+  renderSyncStatus();
+  if('serviceWorker'in navigator){const reg=await navigator.serviceWorker.ready.catch(()=>null);if(reg?.sync)reg.sync.register('edu-biscoito-sync').catch(()=>{});}
+  if(navigator.onLine&&syncConfig.enabled&&syncConfig.endpoint) flushSyncQueue();
 }
 async function flushSyncQueue(options={silent:true,test:false}){
   if(syncing)return false;if(!navigator.onLine){if(!options.silent)toast('Sem internet. Os dados continuam salvos localmente.');renderSyncStatus();return false;}
@@ -936,7 +1051,7 @@ async function flushSyncQueue(options={silent:true,test:false}){
     const events=options.test?[]:await getQueueItems();
     if(!events.length&&!options.test){lastSyncAt=lastSyncAt||new Date().toISOString();return true;}
     const headers={'Content-Type':'application/json'};if(syncConfig.token)headers.Authorization=`Bearer ${syncConfig.token}`;
-    const response=await fetch(syncConfig.endpoint,{method:'POST',headers,body:JSON.stringify({source:'edu-biscoito-pdv',deviceId:syncConfig.deviceId,sentAt:new Date().toISOString(),test:Boolean(options.test),events})});
+    const response=await fetch(syncConfig.endpoint,{method:'POST',headers,body:JSON.stringify({source:'edu-biscoito-v3.4',deviceId:syncConfig.deviceId,sentAt:new Date().toISOString(),test:Boolean(options.test),events})});
     if(!response.ok)throw new Error(`HTTP ${response.status}`);
     if(!options.test)await deleteQueueItems(events.map(item=>item.id));lastSyncAt=new Date().toISOString();
     if(!options.silent)toast(options.test?'Conexão com a nuvem confirmada.':`${events.length} evento(s) sincronizado(s).`);return true;
@@ -944,7 +1059,7 @@ async function flushSyncQueue(options={silent:true,test:false}){
   finally{syncing=false;renderSyncStatus();}
 }
 async function renderSyncStatus(){
-  const online=navigator.onLine;const pending=(await getQueueItems().catch(()=>[])).length;
+  const online=navigator.onLine;const pending=(await getQueueItems().catch(()=>[])).length;updateLocalPersistenceStatus();
   const pill=$('connectionPill');pill.classList.toggle('online',online&&!syncing);pill.classList.toggle('offline',!online);pill.classList.toggle('syncing',syncing);
   $('connectionText').textContent=syncing?'Sincronizando':online?'Online':'Offline';$('pendingSyncTop').textContent=`${pending} pendente${pending===1?'':'s'}`;
   $('syncConnection').textContent=online?'Online':'Offline';$('syncPending').textContent=String(pending);$('syncLast').textContent=lastSyncAt?localDateTime(lastSyncAt):'Nunca';
@@ -956,8 +1071,37 @@ async function renderSyncStatus(){
   else {$('syncStatusTitle').textContent='Tudo sincronizado';$('syncStatusText').textContent='Não há movimentações pendentes neste aparelho.';}
 }
 async function saveSyncSettings(){
-  const endpoint=$('syncEndpoint').value.trim();if(endpoint&&!/^https:\/\//i.test(endpoint)){toast('Use um endpoint HTTPS.');return;}
+  const endpoint=$('syncEndpoint').value.trim();if(endpoint&&!isAllowedSyncUrl(endpoint)){toast('Use HTTPS. HTTP só é aceito em localhost para testes.');return;}
   syncConfig={enabled:$('syncEnabled').checked,endpoint,token:$('syncToken').value.trim(),deviceId:getDeviceId()};await persistSyncConfig();renderSyncStatus();toast('Configuração de sincronização salva.');if(navigator.onLine&&syncConfig.enabled&&syncConfig.endpoint)flushSyncQueue();
+}
+
+function isAllowedSyncUrl(url){
+  if(!url)return true;
+  try{const u=new URL(url,location.href);return u.protocol==='https:'||((u.hostname==='127.0.0.1'||u.hostname==='localhost')&&u.protocol==='http:');}catch{return false}
+}
+function updateLocalPersistenceStatus(){
+  const dbEl=$('localDbStatus');if(dbEl)dbEl.textContent=localDbReady?'IndexedDB OK':'Fallback local';
+  const offEl=$('offlineCacheStatus');if(offEl){
+    if(location.protocol==='file:')offEl.textContent='HTML local';
+    else offEl.textContent=offlineRuntimeReady?'Pronto':'Preparando';
+  }
+}
+async function requestPersistentStorage(){
+  try{if(navigator.storage?.persist){await navigator.storage.persist();}}catch{}
+}
+async function prepareOfflineRuntime(showToast=false){
+  updateLocalPersistenceStatus();
+  if(location.protocol==='file:'){offlineRuntimeReady=true;safeStorage.set(OFFLINE_READY_KEY,'file');updateLocalPersistenceStatus();if(showToast)toast('Arquivo local pronto: dados ficam neste aparelho.');return true;}
+  if(!('serviceWorker'in navigator)){if(showToast)toast('Este navegador não oferece service worker. O banco local continua ativo.');return false;}
+  try{
+    swRegistration=swRegistration||await navigator.serviceWorker.register('./sw.js?v=3.4.0',{scope:'./'});
+    await navigator.serviceWorker.ready;
+    const worker=swRegistration.active||swRegistration.waiting||swRegistration.installing||navigator.serviceWorker.controller;
+    if(worker)worker.postMessage({type:'CACHE_APP_SHELL'});
+    offlineRuntimeReady=true;safeStorage.set(OFFLINE_READY_KEY,'1');updateLocalPersistenceStatus();
+    if(showToast)toast('Modo offline preparado neste aparelho.');
+    return true;
+  }catch(error){console.warn('Falha ao preparar offline',error);offlineRuntimeReady=false;updateLocalPersistenceStatus();if(showToast)toast('Não foi possível preparar o cache offline. Banco local segue ativo.');return false;}
 }
 
 async function startCamera(target){
@@ -986,24 +1130,27 @@ function registerEvents(){
   $('saveOpeningBtn').addEventListener('click',saveOpening);$('saveCashMoveBtn').addEventListener('click',saveCashMove);$('closeCashBtn').addEventListener('click',closeCash);
   $('reportPeriod').addEventListener('change',renderReport);$('reportStart').addEventListener('change',renderReport);$('reportEnd').addEventListener('change',renderReport);$('exportCsvBtn').addEventListener('click',exportCsv);$('printReportBtn').addEventListener('click',()=>window.print());
   $('exportBackupBtn').addEventListener('click',exportBackup);$('importBackupBtn').addEventListener('click',importBackup);$('clearAllBtn').addEventListener('click',clearAll);
-  $('saveSyncSettingsBtn').addEventListener('click',saveSyncSettings);$('syncNowBtn').addEventListener('click',()=>flushSyncQueue({silent:false}));$('syncTopBtn').addEventListener('click',()=>flushSyncQueue({silent:false}));$('testSyncBtn').addEventListener('click',()=>flushSyncQueue({silent:false,test:true}));
+  $('saveSyncSettingsBtn').addEventListener('click',saveSyncSettings);$('syncNowBtn').addEventListener('click',()=>flushSyncQueue({silent:false}));$('syncTopBtn').addEventListener('click',()=>flushSyncQueue({silent:false}));$('testSyncBtn').addEventListener('click',()=>flushSyncQueue({silent:false,test:true}));$('prepareOfflineBtn').addEventListener('click',()=>prepareOfflineRuntime(true));
   $('cameraScanBtn').addEventListener('click',()=>startCamera('sale'));$('scanProductBarcodeBtn').addEventListener('click',()=>startCamera('product'));$('closeCameraBtn').addEventListener('click',stopCamera);$('cameraDialog').addEventListener('cancel',event=>{event.preventDefault();stopCamera();});
   document.addEventListener('click',event=>{if(!event.target.closest('.product-search'))$('searchResults').classList.remove('show');});
+  document.addEventListener('pointerdown',()=>{unlockProductAudio();requestPersistentStorage();},{once:true,passive:true});document.addEventListener('keydown',unlockProductAudio,{once:true});
   window.addEventListener('online',()=>{renderSyncStatus();if(syncConfig.enabled&&syncConfig.endpoint)flushSyncQueue();});window.addEventListener('offline',renderSyncStatus);
-  if(navigator.serviceWorker) navigator.serviceWorker.addEventListener('message',event=>{if(event.data&&event.data.type==='edu-biscoito-sync-complete'){lastSyncAt=event.data.at||new Date().toISOString();renderSyncStatus();toast(`${event.data.count||0} evento(s) sincronizado(s) em segundo plano.`);}});
-  window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstall=event;$('installBtn').classList.remove('hidden');$('installBtn').hidden=false;});window.addEventListener('appinstalled',()=>{deferredInstall=null;$('installBtn').classList.add('hidden');$('installBtn').hidden=true;toast('Edu Biscoito instalado com ícone EB.');});$('installBtn').addEventListener('click',async()=>{if(deferredInstall){deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;$('installBtn').classList.add('hidden');$('installBtn').hidden=true;return;}toast('No Chrome: menu ⋮ → Instalar app. Evite “Criar atalho”, que pode exibir o selo do Chrome.');});
+  document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')refreshAll();});
+  if(navigator.serviceWorker) navigator.serviceWorker.addEventListener('message',event=>{if(event.data&&event.data.type==='edu-biscoito-sync-complete'){lastSyncAt=event.data.at||new Date().toISOString();renderSyncStatus();toast(`${event.data.count||0} evento(s) sincronizado(s) em segundo plano.`);}if(event.data&&event.data.type==='OFFLINE_READY'){offlineRuntimeReady=true;safeStorage.set(OFFLINE_READY_KEY,'1');updateLocalPersistenceStatus();}});
+  window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();deferredInstall=event;$('installBtn').classList.remove('hidden');$('installBtn').hidden=false;});window.addEventListener('appinstalled',()=>{deferredInstall=null;$('installBtn').classList.add('hidden');$('installBtn').hidden=true;toast('Edu Biscoito instalado com ícone EB.');});$('installBtn').addEventListener('click',async()=>{if(deferredInstall){deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;$('installBtn').classList.add('hidden');$('installBtn').hidden=true;return;}toast('Use “Instalar app”. Se aparecer apenas “Criar atalho”, atualize a página após publicar manifest.json e sw.js.');});
 }
 
 async function init(){
   try{
     applyViewportFit();
-    load();
+    await load();
     registerEvents();
     setPaymentMode('none');
     refreshAll();
+    scheduleMidnightRefresh();
     if($('finishSaleBtn'))$('finishSaleBtn').disabled=true;
   }catch(error){console.error('Falha de inicialização da interface',error);}
-  if(location.protocol!=='file:'&&'serviceWorker'in navigator){navigator.serviceWorker.register('./sw.js',{scope:'./'}).catch(error=>console.warn('Service worker indisponível',error));}
+  await prepareOfflineRuntime(false);
   if(location.protocol==='https:'&&!window.matchMedia('(display-mode: standalone)').matches){$('installBtn').classList.remove('hidden');$('installBtn').hidden=false;}
   try{await loadSyncConfig();}catch(error){console.warn('IndexedDB indisponível; app continuará localmente',error);syncConfig={enabled:true,endpoint:'',token:'',deviceId:getDeviceId()};}
   try{await renderSyncStatus();}catch(error){console.warn('Status de sincronização indisponível',error);}
