@@ -1,0 +1,23 @@
+{
+  "id": "./edu-biscoito-v34",
+  "name": "Edu Biscoito — Depósito, Estoque e Caixa",
+  "short_name": "Edu Biscoito",
+  "description": "Controle local-first de depósito, estoque, vendas e caixa. Funciona offline e sincroniza depois.",
+  "start_url": "./index.html?source=pwa-v34",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#03050a",
+  "theme_color": "#03050a",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {"src":"./eb-icon-192-v34.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./eb-icon-512-v34.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"./eb-icon-maskable-192-v34.png","sizes":"192x192","type":"image/png","purpose":"maskable"},
+    {"src":"./eb-icon-maskable-512-v34.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
+}

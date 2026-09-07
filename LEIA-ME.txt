@@ -1,0 +1,18 @@
+EDU BISCOITO V3.4 — LOCAL-FIRST / OFFLINE REAL
+
+PUBLICAÇÃO:
+1. Envie TODOS os arquivos desta pasta para a mesma raiz do GitHub Pages.
+2. Abra o site uma vez com internet.
+3. Aguarde o status Offline = Pronto na área Sincronização (ou toque em “Preparar offline”).
+4. Depois disso, o app abre e opera sem internet usando o service worker + IndexedDB local.
+
+ARMAZENAMENTO:
+- Camada 1: IndexedDB no aparelho. É a fonte local principal.
+- Fallback: localStorage, caso o IndexedDB esteja temporariamente indisponível.
+- Fila de sincronização: cada ação gera evento local pendente.
+- Camada 2: endpoint/API remoto opcional. Ao voltar a internet, a fila é enviada automaticamente.
+
+IMPORTANTE:
+- Sem endpoint configurado, o app continua 100% local e offline.
+- Para gravar em um banco em nuvem, configure um endpoint HTTPS que aceite POST JSON na área Sincronização.
+- O arquivo index.html é autossuficiente para interface/JavaScript e também pode ser aberto localmente; nesse modo file:// o service worker não existe, mas os dados locais ainda funcionam no navegador.
